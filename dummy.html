@@ -397,7 +397,21 @@
             <!-- End of Contact page  -->   
         
         </main>
-
+<div class="modal fade" id="admodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+      <div class="modal-content modal-popup">
+          <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+               <h2>Download OUR SKH BELL SYSTEM 2.1</h2>
+          </div>
+              <h3 style="font-family: arial; color: red;">This System is now completely free for you</h3>
+              <h4>Our previous bell system download button showing below. please click this button to get application to install your school pc.   </h4>
+                    <a href="/download/SKHbellSystem2.1.zip" class="section-btn btn btn-success">DOWNLOAD NOW </a> 
+                    <a href="#"  data-toggle="modal" data-target="#licence" class="section-btn btn btn-success">GeT Licence</a>
+                    <!--    -->              
+         </div>
+     </div>
+</div>
         <!-- END OF site main content content here -->  
 		
 		<!-- Begin of site footer -->
@@ -435,7 +449,13 @@
         
 		<!-- Javascript main files -->
         <script src="./js/main.js"></script>
-         
+         <script type="text/javascript">
+	    $(document).ready(function(){
+		 setTimeout(function(){
+		     $('#admodal').modal('show');
+		 }, 10000);
+	    });
+	</script>
 
         <!-- Google Analytics: Uncomment and change UA-XXXXX-X to be your site"s ID. -->
         <!--<script>
